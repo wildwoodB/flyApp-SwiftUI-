@@ -1,9 +1,10 @@
 
 #flyApp
+
 Project meaning: an example of the appearance of an aggregator for buying plane tickets.
 
 Stack: SwiftUI, MVVM, URLSession, Unit-test.
-
+_________________
 Что было сделано:
 
 1)Сделан экран поискового результата по направлению "Москва - Санкт-Петербург".
