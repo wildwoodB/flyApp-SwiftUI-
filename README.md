@@ -1,4 +1,4 @@
-#FlyApp
+# FlyApp
 
 Project meaning: an example of the appearance of an aggregator for buying plane tickets.
 
