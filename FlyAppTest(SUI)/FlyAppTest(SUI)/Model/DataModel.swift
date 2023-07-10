@@ -7,7 +7,7 @@
 
 import Foundation
 
-// MARK: - Welcome
+// MARK: - MainFlyInfo
 struct MainFlyInfo: Codable, Identifiable {
     
     var id = UUID().uuidString
