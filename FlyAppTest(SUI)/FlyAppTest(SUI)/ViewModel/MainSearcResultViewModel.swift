@@ -27,7 +27,7 @@ class MainSearcResultViewModel: ObservableObject {
                 self?.isLoading = false
                 switch result {
                 case .success(let searcResults):
-                    self?.searchResults = [searcResults]
+                    self?.searchResults.append(searcResults)
                 case .failure(let error):
                     print(error.localizedDescription)
                 }

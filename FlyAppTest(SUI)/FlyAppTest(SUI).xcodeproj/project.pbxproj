@@ -22,7 +22,34 @@
 		84418D792A59D2A000D2B416 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84418D782A59D2A000D2B416 /* UIColor+Extension.swift */; };
 		84418D7D2A5AB84D00D2B416 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84418D7C2A5AB84D00D2B416 /* Constants.swift */; };
 		84418D802A5AD77800D2B416 /* MainSearcResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84418D7F2A5AD77800D2B416 /* MainSearcResultViewModel.swift */; };
+		84418D882A5BDE6F00D2B416 /* FlyAppTest_SUI_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84418D872A5BDE6F00D2B416 /* FlyAppTest_SUI_UITests.swift */; };
+		84418D8A2A5BDE6F00D2B416 /* FlyAppTest_SUI_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84418D892A5BDE6F00D2B416 /* FlyAppTest_SUI_UITestsLaunchTests.swift */; };
+		84418DA62A5BE97600D2B416 /* MainSearcResultViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84418DA52A5BE97600D2B416 /* MainSearcResultViewModel_Tests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84418D8B2A5BDE6F00D2B416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84418D442A58095200D2B416 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84418D4B2A58095200D2B416;
+			remoteInfo = "FlyAppTest(SUI)";
+		};
+		84418D982A5BE45000D2B416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84418D442A58095200D2B416 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84418D4B2A58095200D2B416;
+			remoteInfo = "FlyAppTest(SUI)";
+		};
+		84418DA72A5BE97600D2B416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84418D442A58095200D2B416 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84418D4B2A58095200D2B416;
+			remoteInfo = "FlyAppTest(SUI)";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		84418D4C2A58095200D2B416 /* FlyAppTest(SUI).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlyAppTest(SUI).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,10 +68,37 @@
 		84418D782A59D2A000D2B416 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		84418D7C2A5AB84D00D2B416 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		84418D7F2A5AD77800D2B416 /* MainSearcResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearcResultViewModel.swift; sourceTree = "<group>"; };
+		84418D852A5BDE6F00D2B416 /* FlyAppTest(SUI)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlyAppTest(SUI)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84418D872A5BDE6F00D2B416 /* FlyAppTest_SUI_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyAppTest_SUI_UITests.swift; sourceTree = "<group>"; };
+		84418D892A5BDE6F00D2B416 /* FlyAppTest_SUI_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyAppTest_SUI_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84418D942A5BE44F00D2B416 /* FlyAppTest(SUI)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlyAppTest(SUI)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84418DA32A5BE97600D2B416 /* FlyAppTest(SUI)_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlyAppTest(SUI)_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84418DA52A5BE97600D2B416 /* MainSearcResultViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSearcResultViewModel_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		84418D492A58095200D2B416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84418D822A5BDE6F00D2B416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84418D912A5BE44F00D2B416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84418DA02A5BE97600D2B416 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				84418D4E2A58095200D2B416 /* FlyAppTest(SUI) */,
+				84418D862A5BDE6F00D2B416 /* FlyAppTest(SUI)UITests */,
+				84418DA42A5BE97600D2B416 /* FlyAppTest(SUI)_Tests */,
 				84418D4D2A58095200D2B416 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				84418D4C2A58095200D2B416 /* FlyAppTest(SUI).app */,
+				84418D852A5BDE6F00D2B416 /* FlyAppTest(SUI)UITests.xctest */,
+				84418D942A5BE44F00D2B416 /* FlyAppTest(SUI)Tests.xctest */,
+				84418DA32A5BE97600D2B416 /* FlyAppTest(SUI)_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,6 +199,23 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		84418D862A5BDE6F00D2B416 /* FlyAppTest(SUI)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84418D872A5BDE6F00D2B416 /* FlyAppTest_SUI_UITests.swift */,
+				84418D892A5BDE6F00D2B416 /* FlyAppTest_SUI_UITestsLaunchTests.swift */,
+			);
+			path = "FlyAppTest(SUI)UITests";
+			sourceTree = "<group>";
+		};
+		84418DA42A5BE97600D2B416 /* FlyAppTest(SUI)_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84418DA52A5BE97600D2B416 /* MainSearcResultViewModel_Tests.swift */,
+			);
+			path = "FlyAppTest(SUI)_Tests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,6 +236,60 @@
 			productReference = 84418D4C2A58095200D2B416 /* FlyAppTest(SUI).app */;
 			productType = "com.apple.product-type.application";
 		};
+		84418D842A5BDE6F00D2B416 /* FlyAppTest(SUI)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84418D8F2A5BDE6F00D2B416 /* Build configuration list for PBXNativeTarget "FlyAppTest(SUI)UITests" */;
+			buildPhases = (
+				84418D812A5BDE6F00D2B416 /* Sources */,
+				84418D822A5BDE6F00D2B416 /* Frameworks */,
+				84418D832A5BDE6F00D2B416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84418D8C2A5BDE6F00D2B416 /* PBXTargetDependency */,
+			);
+			name = "FlyAppTest(SUI)UITests";
+			productName = "FlyAppTest(SUI)UITests";
+			productReference = 84418D852A5BDE6F00D2B416 /* FlyAppTest(SUI)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		84418D932A5BE44F00D2B416 /* FlyAppTest(SUI)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84418D9A2A5BE45000D2B416 /* Build configuration list for PBXNativeTarget "FlyAppTest(SUI)Tests" */;
+			buildPhases = (
+				84418D902A5BE44F00D2B416 /* Sources */,
+				84418D912A5BE44F00D2B416 /* Frameworks */,
+				84418D922A5BE44F00D2B416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84418D992A5BE45000D2B416 /* PBXTargetDependency */,
+			);
+			name = "FlyAppTest(SUI)Tests";
+			productName = "FlyAppTest(SUI)Tests";
+			productReference = 84418D942A5BE44F00D2B416 /* FlyAppTest(SUI)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84418DA22A5BE97600D2B416 /* FlyAppTest(SUI)_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84418DA92A5BE97600D2B416 /* Build configuration list for PBXNativeTarget "FlyAppTest(SUI)_Tests" */;
+			buildPhases = (
+				84418D9F2A5BE97600D2B416 /* Sources */,
+				84418DA02A5BE97600D2B416 /* Frameworks */,
+				84418DA12A5BE97600D2B416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84418DA82A5BE97600D2B416 /* PBXTargetDependency */,
+			);
+			name = "FlyAppTest(SUI)_Tests";
+			productName = "FlyAppTest(SUI)_Tests";
+			productReference = 84418DA32A5BE97600D2B416 /* FlyAppTest(SUI)_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +302,18 @@
 				TargetAttributes = {
 					84418D4B2A58095200D2B416 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					84418D842A5BDE6F00D2B416 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 84418D4B2A58095200D2B416;
+					};
+					84418D932A5BE44F00D2B416 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 84418D4B2A58095200D2B416;
+					};
+					84418DA22A5BE97600D2B416 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 84418D4B2A58095200D2B416;
 					};
 				};
 			};
@@ -189,6 +331,9 @@
 			projectRoot = "";
 			targets = (
 				84418D4B2A58095200D2B416 /* FlyAppTest(SUI) */,
+				84418D842A5BDE6F00D2B416 /* FlyAppTest(SUI)UITests */,
+				84418D932A5BE44F00D2B416 /* FlyAppTest(SUI)Tests */,
+				84418DA22A5BE97600D2B416 /* FlyAppTest(SUI)_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,6 +345,27 @@
 			files = (
 				84418D572A58095400D2B416 /* Preview Assets.xcassets in Resources */,
 				84418D542A58095400D2B416 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84418D832A5BDE6F00D2B416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84418D922A5BE44F00D2B416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84418DA12A5BE97600D2B416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +392,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84418D812A5BDE6F00D2B416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84418D8A2A5BDE6F00D2B416 /* FlyAppTest_SUI_UITestsLaunchTests.swift in Sources */,
+				84418D882A5BDE6F00D2B416 /* FlyAppTest_SUI_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84418D902A5BE44F00D2B416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84418D9F2A5BE97600D2B416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84418DA62A5BE97600D2B416 /* MainSearcResultViewModel_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84418D8C2A5BDE6F00D2B416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84418D4B2A58095200D2B416 /* FlyAppTest(SUI) */;
+			targetProxy = 84418D8B2A5BDE6F00D2B416 /* PBXContainerItemProxy */;
+		};
+		84418D992A5BE45000D2B416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84418D4B2A58095200D2B416 /* FlyAppTest(SUI) */;
+			targetProxy = 84418D982A5BE45000D2B416 /* PBXContainerItemProxy */;
+		};
+		84418DA82A5BE97600D2B416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84418D4B2A58095200D2B416 /* FlyAppTest(SUI) */;
+			targetProxy = 84418DA72A5BE97600D2B416 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		84418D582A58095400D2B416 /* Debug */ = {
@@ -403,6 +611,112 @@
 			};
 			name = Release;
 		};
+		84418D8D2A5BDE6F00D2B416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V8QBXH95P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yaltApp.FlyAppTest-SUI-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FlyAppTest(SUI)";
+			};
+			name = Debug;
+		};
+		84418D8E2A5BDE6F00D2B416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V8QBXH95P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yaltApp.FlyAppTest-SUI-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FlyAppTest(SUI)";
+			};
+			name = Release;
+		};
+		84418D9B2A5BE45000D2B416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V8QBXH95P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yaltApp.FlyAppTest-SUI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyAppTest(SUI).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlyAppTest(SUI)";
+			};
+			name = Debug;
+		};
+		84418D9C2A5BE45000D2B416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V8QBXH95P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yaltApp.FlyAppTest-SUI-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyAppTest(SUI).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlyAppTest(SUI)";
+			};
+			name = Release;
+		};
+		84418DAA2A5BE97600D2B416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V8QBXH95P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yaltApp.FlyAppTest-SUI--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyAppTest(SUI).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlyAppTest(SUI)";
+			};
+			name = Debug;
+		};
+		84418DAB2A5BE97600D2B416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8V8QBXH95P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yaltApp.FlyAppTest-SUI--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyAppTest(SUI).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlyAppTest(SUI)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -420,6 +734,33 @@
 			buildConfigurations = (
 				84418D5B2A58095400D2B416 /* Debug */,
 				84418D5C2A58095400D2B416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84418D8F2A5BDE6F00D2B416 /* Build configuration list for PBXNativeTarget "FlyAppTest(SUI)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84418D8D2A5BDE6F00D2B416 /* Debug */,
+				84418D8E2A5BDE6F00D2B416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84418D9A2A5BE45000D2B416 /* Build configuration list for PBXNativeTarget "FlyAppTest(SUI)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84418D9B2A5BE45000D2B416 /* Debug */,
+				84418D9C2A5BE45000D2B416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84418DA92A5BE97600D2B416 /* Build configuration list for PBXNativeTarget "FlyAppTest(SUI)_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84418DAA2A5BE97600D2B416 /* Debug */,
+				84418DAB2A5BE97600D2B416 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
