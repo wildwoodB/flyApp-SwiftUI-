@@ -21,4 +21,5 @@ _________________
 
 
 ------
-![simRec](https://github.com/wildwoodB/flyTeestApp-SUI-/assets/111679856/f3b4656e-b06a-438c-a45e-f7685549ba60)
+
+![simRec (online-video-cutter com)](https://github.com/wildwoodB/flyApp-SwiftUI-/assets/111679856/d0785262-e04a-4ac7-8f00-6b34f30258d9)
