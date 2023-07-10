@@ -58,7 +58,7 @@ struct FlightDetailsView: View {
                                 
                                 Spacer()
                                 
-                                Text("\(getTime(from: flyInfo.departureDateTime))")
+                                Text("\(getTime_Date(from: flyInfo.departureDateTime, caseUse: .needTime))")
                             } // точка отправления
                             HStack {
                                 Text("\(result.origin.iata)")
@@ -69,7 +69,7 @@ struct FlightDetailsView: View {
                                 
                                 Spacer()
                                 
-                                Text("\(getDateAndDayOfWeek(from: flyInfo.arrivalDateTime))")
+                                Text("\(getTime_Date(from: flyInfo.arrivalDateTime, caseUse: .needDate))")
                                     .font(.system(size: 13,
                                                   weight: .regular,
                                                   design: .default))
@@ -83,7 +83,7 @@ struct FlightDetailsView: View {
                                 
                                 Spacer()
                                 
-                                Text("\(getTime(from: flyInfo.arrivalDateTime))")
+                                Text("\(getTime_Date(from: flyInfo.arrivalDateTime, caseUse: .needTime))")
                             }// точка прибытия
                             HStack {
                                 Text("\(result.destination.iata)")
@@ -92,7 +92,7 @@ struct FlightDetailsView: View {
                                                   design: .default))
                                     .foregroundColor(.secondary)
                                 Spacer()
-                                Text("\(getDateAndDayOfWeek(from: flyInfo.arrivalDateTime))")
+                                Text("\(getTime_Date(from: flyInfo.arrivalDateTime, caseUse: .needDate))")
                                     .font(.system(size: 13,
                                                   weight: .regular,
                                                   design: .default))

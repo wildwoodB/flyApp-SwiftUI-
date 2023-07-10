@@ -23,3 +23,8 @@ enum Constants {
         static let ticketCount2 = "билетов по этой цене"
     }
 }
+
+enum TimeOrDate: String {
+    case needTime = "HH:mm"
+    case needDate = "MMM, EE"
+}

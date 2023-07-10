@@ -41,7 +41,7 @@ struct SearchResultItem: View {
                                           weight: .semibold,
                                           design: .default))
                         Spacer()
-                        Text("\(getTime(from: flyInfo.departureDateTime))")
+                        Text("\(getTime_Date(from: flyInfo.departureDateTime, caseUse: .needTime))")
                     } // точка отправления
                     HStack {
                         Text("\(result.origin.iata)")
@@ -50,19 +50,20 @@ struct SearchResultItem: View {
                                           design: .default))
                             .foregroundColor(.secondary)
                         Spacer()
-                        Text("\(getDateAndDayOfWeek(from: flyInfo.arrivalDateTime))")
+                        Text("\(getTime_Date(from: flyInfo.arrivalDateTime, caseUse: .needDate))")
                             .font(.system(size: 13,
                                           weight: .regular,
                                           design: .default))
                             .foregroundColor(.secondary)
                     }
+                    .padding(.bottom,1)
                     HStack {
                         Text("\(result.destination.name)")
                             .font(.system(size: 15,
                                           weight: .semibold,
                                           design: .default))
                         Spacer()
-                        Text("\(getTime(from: flyInfo.arrivalDateTime))")
+                        Text("\(getTime_Date(from: flyInfo.arrivalDateTime, caseUse: .needTime))")
                     }// точка прибытия
                     HStack {
                         Text("\(result.destination.iata)")
@@ -71,7 +72,7 @@ struct SearchResultItem: View {
                                           design: .default))
                             .foregroundColor(.secondary)
                         Spacer()
-                        Text("\(getDateAndDayOfWeek(from: flyInfo.arrivalDateTime))")
+                        Text("\(getTime_Date(from: flyInfo.arrivalDateTime, caseUse: .needDate))")
                             .font(.system(size: 13,
                                           weight: .regular,
                                           design: .default))
@@ -89,25 +90,24 @@ struct SearchResultItem: View {
                     RoundedRectangle(cornerRadius: 10)
                         .foregroundColor(Color(.minPriceDeck))
                         .frame(width: 150,height: 20)
-                        .position(x: 75,y: 14)
+                        .position(x: 75,y: 9)
                     
                         .frame(width: 360 ,height: 180)
                         .cornerRadius(10)
-                    
-                    Text("\(Constants.Text.chipestPrice)")
-                        .foregroundColor(.white)
-                        .font(.system(size: 15,
-                                      weight: .semibold,
-                                      design: .default))
-                        .position(x: 85,y: 19)
+                    VStack(alignment: .leading) {
+                        Text("\(Constants.Text.chipestPrice)")
+                            .foregroundColor(.white)
+                            .font(.system(size: 15,
+                                          weight: .semibold,
+                                          design: .default))
+                            .position(x: 85,y: 19)
+                    }
                 }
             }
         }
         .frame(width: 380 ,height: 182)
         .background(Color.clear)
         .cornerRadius(10)
-        //.shadow(color: .black.opacity(0.1), radius: 5, x: 4 ,y: 4)
         .padding()
     }
 }
-

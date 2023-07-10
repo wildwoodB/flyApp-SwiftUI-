@@ -10,33 +10,20 @@ import SwiftUI
 
 //MARK: - View Date/Time/Price Formatter
 extension View {
-    // конвертируем время в нужный нам формат
-    func getTime(from string: String) -> String {
+    
+    func getTime_Date(from string: String, caseUse: TimeOrDate) -> String {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale(identifier: "ru_RU")
         dateFormatter.dateFormat = "yyyy-MM-dd HH:mm"
         
         if let date = dateFormatter.date(from: string) {
-            dateFormatter.dateFormat = "HH:mm"
+            dateFormatter.dateFormat = caseUse.rawValue
             return dateFormatter.string(from: date)
         } else {
             return "nil"
         }
     }
-    // конвертируем дату в нужный нам формат
-    func getDateAndDayOfWeek(from string: String) -> String {
-        let dateFormatter = DateFormatter()
-        dateFormatter.locale = Locale(identifier: "ru_RU")
-        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm"
-        
-        if let date = dateFormatter.date(from: string) {
-            dateFormatter.dateFormat = "d MMM, EE"
-            return dateFormatter.string(from: date)
-        } else {
-            return "nil"
-        }
-    }
-    // конвертируем цену в нужный нам формат
+    
     func getPriceFormatter(from: Int) -> String {
         let numberFormatter = NumberFormatter()
         numberFormatter.numberStyle = .decimal
